@@ -1,7 +1,7 @@
 {
-  "name": "webpack-library-starter",
+  "name": "Lazyload",
   "version": "0.3.0",
-  "description": "Produce universal library with webpack and es6",
+  "description": "Lazyload everything you want",
   "main": "lib/library.js",
   "scripts": {
     "build": "webpack --env build",
@@ -15,31 +15,34 @@
     "babel-eslint": "7.2.3",
     "babel-loader": "7.0.0",
     "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "6.24.1",
     "chai": "3.5.0",
     "eslint": "3.19.0",
+    "eslint-config-standard": "^10.2.1",
     "eslint-loader": "1.7.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "mocha": "3.3.0",
+    "standard": "^10.0.3",
     "webpack": "3.1.0",
     "yargs": "7.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/krasimir/webpack-library-starter.git"
+    "url": "https://github.com/tournevis/lazyloader.git"
   },
   "keywords": [
     "webpack",
-    "es6",
-    "starter",
-    "library",
-    "universal",
-    "umd",
-    "commonjs"
+    "lazyload",
+    "loading"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "Arthur Rob",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krasimir/webpack-library-starter/issues"
+    "url": "https://github.com/tournevis/lazyloader/issues"
   },
-  "homepage": "https://github.com/krasimir/webpack-library-starter"
+  "homepage": "https://github.com/tournevis/lazyloader"
 }

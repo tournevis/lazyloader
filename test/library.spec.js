@@ -1,7 +1,7 @@
 /* global describe, it, before */
 
 import chai from 'chai';
-import {Cat, Dog} from '../lib/library.js';
+import {LazyLoader} from '../lib/library.js';
 
 chai.expect();
 
@@ -16,17 +16,6 @@ describe('Given an instance of my Cat library', () => {
   describe('when I need the name', () => {
     it('should return the name', () => {
       expect(lib.name).to.be.equal('Cat');
-    });
-  });
-});
-
-describe('Given an instance of my Dog library', () => {
-  before(() => {
-    lib = new Dog();
-  });
-  describe('when I need the name', () => {
-    it('should return the name', () => {
-      expect(lib.name).to.be.equal('Dog');
     });
   });
 });
